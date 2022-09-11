@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-        <div>
+        <footer>
            <h4>Copyright 2022 Uziano Development</h4>
-        </div>
+        </footer>
     );
 }
  

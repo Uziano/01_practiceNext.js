@@ -9,12 +9,17 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>Welcome, here is where i practice next.js with net ninja videos</p>
-      <p>I hope u find something useful, see you later ale-gator!</p>
-      <br></br>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>
+        Welcome, here is where i practice next.js with net ninja videos
+        Welcome, here is where i practice next.js with net ninja videos
+        Welcome, here is where i practice next.js with net ninja videos
+        Welcome, here is where i practice next.js with net ninja videos
+        Welcome, here is where i practice next.js with net ninja videos
+      </p>
+      <p className={styles.text}>I hope u find something useful, see you later ale-gator!</p>
       <Link href="/uzis">
-        <a>See Uzis Listing</a>
+        <a className={styles.btn}>See Uzis Listing</a>
       </Link>
     </div>
   )
